@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <style >
+        h2 {color: blueviolet;
+            text-align: center; 
+        }
+        h4 {
+            color: aquamarine;
+            text-align:center;
+        }
+        body {
+            background-color: #DBF9FC; 
+        }
+    </style>
+    
+</head>
+<body>
+    <h2> Irish Flower Classification </h2> 
+    <h4> Input the necessary data for Classification of the iris Flower </h4>
+
+    <div style="text-align: center;">
+        <form action="http://localhost:5000/result" method="post">  
+
+            <label style="color: darkolivegreen" for="sepal_lenth">Sepal length</label> 
+            <input type="number" id="sepal_length" name="sepal_length" required> 
+            <br> 
+            <br>
+
+            <label style="color: darkolivegreen" for="sepal_width"> Sepal width</label> 
+            <input type="number" id="sepal_width" name="sepal_width" required>
+            <br> 
+            <br>
+
+            <label style="color: darkolivegreen" for="petal_length"> Petal length </label>
+            <input type="number" id="petal_length" name="petal_length" required>
+            <br> 
+            <br>
+
+            <label style="color: darkolivegreen" for="petal_width"> Petal width </label> 
+            <input type="number" id="petal_width" name="petal_width" required>
+            <br>
+            <br>
+
+            <input style="color: brown;" type="submit" value="submit"> 
+
+        </form>
+    </div>
+    
+</body>
+</html> 
